@@ -2,10 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
+
+@media (max-width: 2500px) {
+
+  
 div {
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -16,6 +21,29 @@ div {
 .rwandaful-img767 {
     display: none;
 }
+
+
+    
+}
+
+@media (max-width: 1920px) {
+
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .rwandaful-img {
+        width: 100%;
+    }
+    
+    .rwandaful-img767 {
+        display: none;
+    }
+    
+}
+
 
 
 @media (max-width: 767px) {
